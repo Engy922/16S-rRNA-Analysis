@@ -26,7 +26,9 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR815/008/ERR8157528/ERR8157528_2.fastq
 ```
 wget https://mothur.s3.us-east-2.amazonaws.com/wiki/silva.bacteria.zip
 ```
-
+```
+wget https://mothur.s3.us-east-2.amazonaws.com/wiki/trainset9_032012.pds.zip
+```
 ## Data unzipping
 ```
 gunzip ERR8157527_1.fastq.gz
