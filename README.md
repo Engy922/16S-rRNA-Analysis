@@ -2,10 +2,10 @@
 
 ## Directory setup 
 ```
-mkdir /home/Users/Mothur.Ubuntu_20/mothur/Input
+mkdir /home/Users/Mothur.Ubuntu_20/mothur/Data
 ```
 ```
-mkdir /home/Users/Mothur.Ubuntu_20/mothur/output_directory
+mkdir /home/Users/Mothur.Ubuntu_20/mothur/Result
 ```
 ```
 cd Input
@@ -42,12 +42,12 @@ unzip silva.bacteria.zip
 ./mothur
 ```
 ```
-set.dir(input=/home/Users/Mothur.Ubuntu_20/mothur/Input, output=/home/Users/Mothur.Ubuntu_20/mothur/output_directory)
+set.dir(input=/opt/mothur/Data, output=/opt/mothur/Result)
 ```
 ## make file for all reads
 
 ```
-make.file(inputdir=/home/Users/Mothur.Ubuntu_20/mothur/Input, type=fastq, prefix=stability)
+/opt/mothur/Data
 ```
 ## merging reads to contigs
 ```
