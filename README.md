@@ -8,7 +8,7 @@ mkdir /home/Users/Mothur.Ubuntu_20/mothur/Data
 mkdir /home/Users/Mothur.Ubuntu_20/mothur/Result
 ```
 ```
-cd Input
+cd Data
 ```
 ## Download the data
 ```
