@@ -47,7 +47,7 @@ set.dir(input=/opt/mothur/Data, output=/opt/mothur/Result)
 ## make file for all reads
 
 ```
-/opt/mothur/Data
+make.file(inputdir=/opt/mothur/Data, prefix=stability, type=fastq)
 ```
 ## merging reads to contigs
 ```
