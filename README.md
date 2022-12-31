@@ -59,7 +59,7 @@ summary.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_t
 ```
 ## Screening of data 
 ```
-screen.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table, maxambig=0, maxlength="", maxhomop=8)
+screen.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table, maxambig=0, maxlength="602", maxhomop=8)
 ```
 ## Summary of our data 
 ```
@@ -83,7 +83,7 @@ summary.seqs(fasta=stability.trim.contigs.good.unique.align, count=stability.tri
 ```
 ## screening of our data 
 ```
-screen.seqs(fasta=stability.trim.contigs.good.unique.align, count=stability.trim.contigs.good.count_table, start="", end="")
+screen.seqs(fasta=stability.trim.contigs.good.unique.align, count=stability.trim.contigs.good.count_table, start=6388, end=25316)
 ```
 ## Summary of our data 
 ```
