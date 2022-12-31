@@ -131,7 +131,13 @@ cluster(column=final.dist, count=final.count_table)
 ```
 make.shared(list=final.opti_mcc.list, count=final.count_table, label=0.03)
 ```
+```
+classify.otu(list=final.opti_mcc.list, count=final.count_table, taxonomy=final.taxonomy, label=0.03)
+```
 ## ASV 
 ```
 make.shared(count=final.count_table)
+```
+```
+classify.otu(list=final.asv.list, count=final.count_table, taxonomy=final.taxonomy, label=ASV)
 ```
