@@ -132,7 +132,7 @@ classify.seqs(fasta=stability.trim.contigs.good.unique.good.filter.unique.preclu
 ```
 ## Assessing Error rate
 ```
-seq.error(fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.fasta, count=stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.count_table, reference=HMP_MOCK.v35.fasta.1, aligned=F)
+seq.error(fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.fasta, count=stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.count_table, reference=HMP_MOCK.v35.fasta, aligned=F)
 ```
 ## Analysis Preparation
 ```
