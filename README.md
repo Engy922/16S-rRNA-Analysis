@@ -1,5 +1,22 @@
 # 16S-rRNA-Analysis using mothur 
 
+## for error in update ##
+```
+sudo rm /var/lib/apt/lists/lock
+```
+```
+sudo rm /var/lib/dpkg/lock
+```
+```
+sudo rm /var/lib/dpkg/lock-frontend
+```
+```
+sudo rm /var/cache/apt/archives/lock
+```
+```
+sudo dpkg --configure -a
+```
+
 ## Directory setup 
 ```
 mkdir /home/Users/Mothur.Ubuntu_20/mothur/Data
